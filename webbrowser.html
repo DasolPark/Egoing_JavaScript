@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <input type="button" onclick="alert('Hello World!')"" value="Hello World">
+    <input type="button" value="Input ID" id="getId" />
+    <script>
+      var getId = document.getElementById("getId");
+      var id;
+      getId.addEventListener("click", function() {
+        id = window.prompt("ID?");
+        console.log(id);
+      });
+    </script>
+  </body>
+</html>
